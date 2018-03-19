@@ -1,0 +1,2 @@
+C:\Users\Mafyou\Source\Repos\kanbannode\MyKanban\MyKanban\obj\Release\MyKanban.njsproj.CoreCompileInputs.cache
+C:\Users\Mafyou\Source\Repos\kanbannode\MyKanban\MyKanban\bin\Microsoft.NodejsTools.WebRole.dll
