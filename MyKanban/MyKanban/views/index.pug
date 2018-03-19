@@ -1,5 +1,23 @@
 ﻿extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+	h1= title
+	p Welcome to #{title}
+	table(class='table table-striped', id='kanban')
+		thead(class='thead-dark')
+			tr
+				th
+				th(id='wait') Waiting
+				th(id='loading') Loading
+				th(id='finished') Finished
+				th(id='delivered') Delivered
+		tbody
+			tr
+				td Mafyou
+				td(id='startTask')
+					span(draggable='true', id='task1' class='task') Task 1
+				td
+				td
+				td
+	button(type='button', class="btn", href='#', id='addTask') Add Task
+	button(type='button', class="btn", href='#', id='addPerson') Add Person
