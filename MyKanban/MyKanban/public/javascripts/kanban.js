@@ -6,10 +6,10 @@
     editableSpan();
 });
 $("#addPerson").on("click", function () {
-    $('#kanban tr:last').after('<tr><td><span>User</span></td><td></td><td></td><td></td><td></td></tr>').trigger('create');;
+    $('#kanban tr:last').after('<tr><td><span>User</span></td><td></td><td></td><td></td><td></td></tr>').trigger('create');
     dragndrop();
     editableSpan();
-})
+});
 
 function dragndrop() {
     $('.task').on("dragstart", function (event) {
@@ -30,7 +30,7 @@ function dragndrop() {
             }
             var de = $('#' + data).detach();
             de.appendTo($(this));
-        };
+        }
     });
 }
 
@@ -49,7 +49,7 @@ function editableSpan() {
             var oldBg = $(this).attr("oldBg");
             $(this).css("background-color", oldBg);
             $(this).css("color", "white");
-        });;
+        });
 }
 
 $().ready(function () {

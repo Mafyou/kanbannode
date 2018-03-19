@@ -7,7 +7,7 @@ a {
     color: #00B7FF;
 }
 
-span.task {
+.task {
     padding: 5px;
     cursor: pointer;
 }
